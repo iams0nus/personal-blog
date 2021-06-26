@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `TSP Recipes`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Sonu Sharma`,
+      summary: `who lives and works in Bengaluru building websites.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Blog about delicious Indian recipes.`,
+    siteUrl: `https://tsp-recipes.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `iams0nus`,
     },
   },
   plugins: [
@@ -112,8 +112,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `TSP Recipes`,
+        short_name: `TSP`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
